@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    height: 50px;
+    align-items: center;
+}
+.logo{
+    background-color: rgb(10, 10, 61);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 3px;
+
+}
+.menu a{
+    color: #000;
+    text-decoration: none;
+}
+.menu{
+
+    display: flex;
+    gap: 15px;
+}
